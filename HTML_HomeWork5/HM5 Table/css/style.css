@@ -1,0 +1,32 @@
+/* CSS Document */
+table{
+    margin: 0 auto;
+}
+td{
+    border: 3px solid #30352D;
+    width: 100px;
+    height: 60px;
+    
+}
+.bigRed{
+    background-color: red;
+}
+.Yellow{
+    background-color: yellow;
+}
+.black{
+    background-color: black;
+}
+.blueS{
+    background-color: blue;
+    
+}
+.none{
+    border: none;
+    border-bottom: 3px solid #30352D;
+}
+.top{
+    border: none;
+    
+  
+}

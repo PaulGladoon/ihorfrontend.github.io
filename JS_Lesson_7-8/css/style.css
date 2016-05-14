@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* TAB Style */
+.wrapper{
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 1100px;
+}
+.windowTab{
+    width: 500px;
+    float: right;
+    border:1px solid #2DC4FF; 
+    border-radius: 15px;
+    padding: 5px 5px 0 5px;  
+    position: relative;
+    overflow: hidden;
+}
+.menu{
+    border: 1px solid #FFD9AA;
+    background-color: #2CC185;
+    border-radius: 15px 15px 0 0 ;
+    position: relative;
+    overflow: hidden;
+    border-bottom: none;
+}
+.menu{
+    margin: 0;
+}
+.menu li{
+    list-style: none;
+    float: left;
+    border-left: 1px solid #fff;
+}
+.menu li:first-child{
+    border-left: none;
+}
+.menu a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 55px;
+    line-height: 45px;
+    font-size: 20px;
+    color: white;
+}
+.menu a:hover{
+    text-decoration: none;
+    
+}
+.menu a:active{
+    text-decoration: none;
+    color: aqua;
+}
+.boxForText{
+    margin-bottom: 5px;
+}
+.windowTab p{
+   margin: 0; 
+}
+.windowTab p{
+    padding: 5px;
+    background-color: #ccc;
+    border: 1px solid #fff;
+    border-radius: 0 0 15px 15px;
+}
+
+/* FORM Style*/
+.registration{
+    float: left;
+    border:1px solid #2DC4FF; 
+    border-radius: 15px;
+    width: 520px;
+    padding: 20px;
+}
+.inlineBlock{
+    display: inline-block;
+}
+
+.helpText{
+    display: none;
+}

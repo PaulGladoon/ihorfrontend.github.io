@@ -1,0 +1,28 @@
+.wrapper{
+    width: 100%;
+}
+
+.header_h2{
+    text-align: center;
+    font-size: 36px;
+}
+.questionsBlock{
+    margin-top: 50px;
+    padding-left: 50px;
+    margin-bottom: 25px;
+}
+.questionTitle{
+    font-size: 24px;
+}
+
+.checkbox{
+    margin-left: 50px;
+    
+}
+.answer{
+    padding-top: 5px;
+}
+.btn{
+    width: 300px;
+    margin-left: 50px;
+}
