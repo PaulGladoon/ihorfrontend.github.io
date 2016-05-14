@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Century Gothic', sans-serif;
+        }
+        body{
+            background: #D3E8F0;
+            width: 100%;
+        }
+        .wrapper{
+            padding: 20px 10px;
+            width: 65%;
+            background: #fff;
+            margin: 20px auto;
+        }   
+/*        header         */
+        .dateSend{
+            width: 20%;
+            background: #0089DC;
+            margin: -20px 0 0 10px;
+            font-weight: 500;
+            color: #fff;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .dS_Number{
+            font-size: 35px;
+        }
+        .logoBox{
+            padding: 0 10px;
+        }
+        .logoBox img{
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            max-width: 551px;
+        }
+        .month_year{
+            text-align: center;
+            background-color: #0089DC;
+            width: 45%;  
+            margin: 30px auto;
+            padding: 5px;    
+            color: #fff;
+        }
+/*        End header        */
+        
+/*        selection content         */
+        .content{
+            
+        }
+        .bigImgBoat img{
+            margin: 0 auto;
+            display: block;
+            width: 100%;
+            max-width: 768px;
+        }
+        .about_boat{
+            float: left;
+           margin: 20px 5px;
+           width: 32%;
+        }
+        .aboutBigImg{
+            margin: 20px 5px;
+            float: right;
+            width: 60%;
+        }
+        .Name_boat{
+            font-weight: bolder;
+            margin-bottom: 5px;
+        }
+        .boat_disctiption{
+            margin: 2px 0;
+        }
+        .price{
+            margin-top: 10px;
+            font-weight: bolder;
+        }
+        .divider{
+            width: 100%;
+        }
+        .clearfix{
+            clear: both;
+        }
+
+        .mini_img{
+            max-width: 350px;
+            width: 100%;
+            float: left;
+            margin-left: 10px;
+        }
+        .mini_discrip{
+            float: right;
+        }
+/*        end selection content     */
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+<!--               Дата рассылки             -->
+                <div class="dateSend">
+                    <p>Рассылка</p>
+                    <p class="dS_Number">#17</p>
+                </div>
+<!--                Конец даты рассылки        -->
+                <div class="logoBox">
+                       
+                        <a href=""><img src="images/logo.png" alt=""></a>
+                    
+<!--                    Месяц отправки письма         -->
+                    <div class="month_year"> Сентябрь / 2016 </div>
+                </div>
+        </header>
+        <selection class="content">
+<!--           Блок с большой картинкой            -->
+            <div class="bigImgBoat">
+                <a href=""> <!--     Ссылка лодки на вашем сайте     -->
+                    <img src="images/lodka_31.png" alt=""><!-- src="ХХХХ" вместо ХХХ адрес на картинку -->
+                </a> 
+            </div> 
+            <div class="about_boat">
+                <p class="Name_boat">M/Y VICTORIA V</p> <!--Здесь можно изменить имя основной лодки (большая картинка)-->
+                <p class="boat_disctiption">Aimut 75 | 2009 | 22.9m</p> <!--О чем строка не знаю, скорее выпуск -->
+                <p class="boat_disctiption">HP/RPM: 609 / 1800</p><!--Здесь можно изменить количество конских сил-->
+                <p class="boat_disctiption">Location: Ukraine, Odessa</p><!--Здесь можно изменить где находится-->
+                <p class="boat_disctiption">Other: 6 guests in 3 staterooms</p> <!--Другая инфа о лодке, если не нужно удаляй строку-->
+                <p class="price">Price: EUR 1.000.000</p>
+            </div>
+            <p class="aboutBigImg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quam, sunt iste voluptatum veritatis impedit minima ad asperiores dolore dolor consequatur? Repudiandae, aut quae necessitatibus nam nobis eum sed accusamus?</p>
+            <img class="divider" src="images/divider.gif" alt=""> 
+<!--            Конец блока с большой картинкой         -->
+       
+<!--            Блок "Лодка № 1"         -->
+        <div class="mini_boat">
+           <a href=""><img class="mini_img" src="images/lodka_1.jpg" alt=""></a>
+           <div class="mini_discrip">
+               <p class="Name_boat">M/Y VICTORIA V</p> <!--Здесь можно изменить имя основной лодки (большая картинка)-->
+                <p class="boat_disctiption">Aimut 75 | 2009 | 22.9m</p> <!--О чем строка не знаю, скорее выпуск -->
+                <p class="boat_disctiption">HP/RPM: 609 / 1800</p><!--Здесь можно изменить количество конских сил-->
+                <p class="boat_disctiption">Location: Ukraine, Odessa</p><!--Здесь можно изменить где находится-->
+                <p class="boat_disctiption">Other: 6 guests in 3 staterooms</p> <!--Другая инфа о лодке, если не нужно удаляй строку-->
+                <p class="price">Price: EUR 1.000.000</p>
+           </div>
+        </div>
+        <img class="divider clearfix" src="images/divider.gif" alt=""> 
+<!--         Конец блока "Лодка 1"         -->
+
+ <!--            Блок "Лодка № 2"         -->
+        <div class="mini_boat">
+           <a href=""><img class="mini_img" src="images/lodka_2.jpg" alt=""></a>
+           <div class="mini_discrip">
+               <p class="Name_boat">M/Y VICTORIA V</p> <!--Здесь можно изменить имя основной лодки (большая картинка)-->
+                <p class="boat_disctiption">Aimut 75 | 2009 | 22.9m</p> <!--О чем строка не знаю, скорее выпуск -->
+                <p class="boat_disctiption">HP/RPM: 609 / 1800</p><!--Здесь можно изменить количество конских сил-->
+                <p class="boat_disctiption">Location: Ukraine, Odessa</p><!--Здесь можно изменить где находится-->
+                <p class="boat_disctiption">Other: 6 guests in 3 staterooms</p> <!--Другая инфа о лодке, если не нужно удаляй строку-->
+                <p class="price">Price: EUR 1.000.000</p>
+           </div>
+        </div>
+        <img class="divider clearfix" src="images/divider.gif" alt=""> 
+<!--         Конец блока "Лодка 2"         -->          
+
+            
+<!--            Блок "Лодка № 3"         -->
+        <div class="mini_boat">
+           <a href=""><img class="mini_img" src="images/lodka_3.png" alt=""></a>
+           <div class="mini_discrip">
+               <p class="Name_boat">M/Y VICTORIA V</p> <!--Здесь можно изменить имя основной лодки (большая картинка)-->
+                <p class="boat_disctiption">Aimut 75 | 2009 | 22.9m</p> <!--О чем строка не знаю, скорее выпуск -->
+                <p class="boat_disctiption">HP/RPM: 609 / 1800</p><!--Здесь можно изменить количество конских сил-->
+                <p class="boat_disctiption">Location: Ukraine, Odessa</p><!--Здесь можно изменить где находится-->
+                <p class="boat_disctiption">Other: 6 guests in 3 staterooms</p> <!--Другая инфа о лодке, если не нужно удаляй строку-->
+                <p class="price">Price: EUR 1.000.000</p>
+           </div>
+        </div>
+        <img class="divider clearfix" src="images/divider.gif" alt=""> 
+<!--         Конец блока "Лодка 3"         -->
+            
+    
+      
+        </selection>   
+           
+    
+</body>
+</html>
