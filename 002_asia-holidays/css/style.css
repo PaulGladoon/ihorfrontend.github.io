@@ -1,0 +1,197 @@
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../img/bg4.jpg) repeat-x, url(../img/bgcolor.jpg) repeat;
+    height: 100%;   
+}
+.box{
+    margin-left: 13%;
+    margin-right: 13%;
+    box-shadow:0 3px 7px #000;
+    height: auto;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+/* CSS Header update*/
+.header{
+    padding: 0 30px 0 30px;
+    position: relative;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    position: relative;
+}
+.logo img{
+    margin-top: 7px;
+}
+.logo p{
+    color: #128aa7;
+    z-index: 9999;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+.contact{
+    float: right;
+}
+.contact1{
+    float: right;
+    color: #128aa7;
+    padding: 5px;
+}
+.imageC {
+    float: right;
+}
+.imageC ul{
+    list-style: none;
+}
+.imageC li {
+    float: left;
+    text-align: center;
+    margin: 5px 5px;
+}
+.imageC a {
+    text-decoration: none;
+    color: #128aa7;
+    
+}
+.imageC p{
+    font-size: 13px;
+}
+
+/*Slider*/
+.slider{
+    height: 237px;
+}
+.slider img{
+    width: 100%;
+    height: 100%
+}
+
+/*Menu*/
+.menu{
+    background-color: #353535;
+    box-shadow:0 2px 5px #000 ;
+    width: 100%;
+    list-style: none;
+    float: left;
+    z-index: 999;
+    border-bottom: 1px solid #000; 
+    position: relative;
+}
+.menu li{
+        float: left;
+        padding:5px 10px;
+        position: relative;
+    z-index: 9999;
+}
+.menu a{
+    float: left;
+    color: #fff;
+    padding: 5px 25px;
+    font-size: 18px;
+    position: relative;
+    text-decoration: none;
+    z-index: 9999;
+    
+}
+/*drop menu*/
+.menu li:hover > ul{
+	display: block;
+}
+.menu ul{
+    list-style: none;
+	margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    top: 43px;
+    left: 0;
+    z-index: 1;
+    background: #303030;
+    box-shadow: 0 5px 3px #303030;
+}
+.menu ul li{
+    float: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    box-shadow: 0 1px 0 #303030, 0 2px 0 #777777;
+}
+.menu_list::after{
+    content: "";
+    position: absolute;
+    border:5px solid;
+    border-color: transparent transparent transparent #eee;
+    right:0.5em;
+    bottom:1em;
+    transition:0.5s ;
+}
+.menu_list:hover::after{
+    transform:rotate(90deg);
+}
+
+/* CSS Container */
+
+.mainContent{
+    clear: both;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+.mainContent:first-child {
+  opacity: .99;
+}
+.leftSidebar{
+    float: left;
+    width: 25%;
+    background-color: #edeef0;
+    z-index: 996;
+    border: 1px solid #c7cacf;
+    height: 100%;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+
+}
+.centerContent{
+    margin: 0 auto;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    
+}
+.rightSidebar{
+    float: right;
+    width: 25%;   
+    background-color: #edeef0;
+    z-index: 996;
+    border: 1px solid #c7cacf;
+    height: 100%;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+.leftSidebar h1,.rightSidebar h1{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    color: #424c43;
+}
+.leftSidebar p,.rightSidebar p{
+    padding: 5px 15px;
+    text-align: center;
+}
+
+
+/* CSS footer */
+.footer p{
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}

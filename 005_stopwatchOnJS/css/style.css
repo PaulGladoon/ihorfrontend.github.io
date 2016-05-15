@@ -1,0 +1,79 @@
+.wrapper{
+    width: 100%;
+    clear: both;
+    background-image: url('../img/bg2.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 100%;
+    background-size: cover; 
+    min-height: 940px;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.innerTimer{
+
+    clear: both;
+    width: 350px;
+    margin: 250px auto;
+    
+}
+.container{
+    height: 940px;
+}
+.btnBox{
+    margin-left: 13px;
+}
+.btnTimer{
+    width: 100px;
+    height: 100px;
+    border-radius:100px;
+    margin: 0 2px;
+    background-color: #f0f0f0;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px #ccc;
+}
+.btnPress1{
+    border: 2px solid #4BD963;
+    color: #4BD963;
+    padding: 0 1px 0 0px;
+}
+.btnPress2{
+    border: 2px solid #ff9400;
+    color: #ff9400;
+}
+.btnPress3{
+    border: 2px solid #FF3930;
+    color: #FF3930; 
+}
+.btnTimer:hover{
+    cursor: pointer;
+}
+#timer{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+    display:inline-block;
+    padding: 70px 0 50px 13px;
+    text-shadow: 2px 3px 1px #ccc;
+    
+}
+.splitBox{
+    clear: both;
+    display: block;
+    font-size: 25px;
+    position: relative;
+    overflow: scroll;
+    overflow-x:hidden; 
+    max-height: 250px;
+    width: 336px;
+    margin-left: 13px;
+}
+.splitTime{
+    
+    padding: 0px 0 0 35px;
+    text-shadow: 1px 2px 1px #ccc;
+    border-bottom: 1px solid #c3c3c3;
+}
