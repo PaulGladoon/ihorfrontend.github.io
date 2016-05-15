@@ -25,17 +25,21 @@ $(function(){
     var $inlineBlock = $('[title]');
     var $helpText = $('.helpText');
     var $btn = $('#btn');
+    var i = 0
     
     $btn.on('click', function(){
         $helpText.fadeIn(1500);   
     });
         
-    
     function stringToNumb(myArray){
-        for(var i = 0; i < myArray.length; i++){
-            console.log(myArray[i]);    
+        for( i = 0; i < myArray.length; i++){
+                console.log(i);
         }
+        
     }
-        stringToNumb($inlineBlock);
-        console.log(stringToNumb);
-      
+
+    
+    stringToNumb($inlineBlock);
+                 
+                 
+    });//END FUNCTION 
