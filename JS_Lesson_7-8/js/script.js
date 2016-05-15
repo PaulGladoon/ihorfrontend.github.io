@@ -22,19 +22,20 @@ $(function(){
 });
 
 $(function(){
+    var $inlineBlock = $('[title]');
     var $helpText = $('.helpText');
     var $btn = $('#btn');
     
-    
-    
-    console.log($btn);
-    
-    
-    
     $btn.on('click', function(){
-     
-        
-        
-        
+        $helpText.fadeIn(1500);   
     });
-});
+        
+    
+    function stringToNumb(myArray){
+        for(var i = 0; i < myArray.length; i++){
+            console.log(myArray[i]);    
+        }
+    }
+        stringToNumb($inlineBlock);
+        console.log(stringToNumb);
+      
