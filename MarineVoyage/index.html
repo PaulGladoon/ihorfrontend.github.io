@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <style type="text/css">
-        
         *{
             margin: 0;
             padding: 0;
@@ -14,93 +13,540 @@
             background: #D3E8F0;
             width: 100%;
         }
-        .wrapper{
-            padding: 20px 10px;
-            width: 65%;
-            background: #fff;
-            margin: 20px auto;
-        }   
-/*        header         */
-        .dateSend{
-            width: 20%;
-            background: #0089DC;
-            margin: -20px 0 0 10px;
-            font-weight: 500;
-            color: #fff;
-            text-align: center;
-            padding-top: 20px;
-            padding-bottom: 20px;
-        }
-        .dS_Number{
-            font-size: 35px;
-        }
-        .logoBox{
-            padding: 0 10px;
-        }
-        .logoBox img{
-            display: block;
-            width: 100%;
-            margin: 0 auto;
-            max-width: 551px;
-        }
-        .month_year{
-            text-align: center;
-            background-color: #0089DC;
-            width: 45%;  
-            margin: 30px auto;
-            padding: 5px;    
-            color: #fff;
-        }
-/*        End header        */
-        
-/*        selection content         */
-        .content{
-            
-        }
-        .bigImgBoat img{
-            margin: 0 auto;
-            display: block;
-            width: 100%;
-            max-width: 768px;
-        }
-        .about_boat{
-            float: left;
-           margin: 20px 5px;
-           width: 32%;
-        }
-        .aboutBigImg{
-            margin: 20px 5px;
-            float: right;
-            width: 60%;
-        }
-        .Name_boat{
-            font-weight: bolder;
-            margin-bottom: 5px;
-        }
-        .boat_disctiption{
-            margin: 2px 0;
-        }
-        .price{
-            margin-top: 10px;
-            font-weight: bolder;
-        }
-        .divider{
-            width: 100%;
-        }
-        .clearfix{
-            clear: both;
-        }
+        a{
+                text-decoration: none;
+                color: black;
+            }
+        @media screen and (min-width: 300px) and (max-width: 479px) {
+             .wrapper{
+                padding: 20px 0;
+                width: 100%;
+                background: #fff;
+                margin: 20px auto;
+            }   
 
-        .mini_img{
-            max-width: 350px;
-            width: 100%;
-            float: left;
-            margin-left: 10px;
+    /*        header         */
+            .dateSend{
+                font-size: 15px;
+                background: #0089DC;
+                margin: -20px 0 0 0;
+                font-weight: 500;
+                color: #fff;
+                text-align: center;
+                padding-top: 5px;
+                padding-bottom: 5px;
+              
+            }
+            .dS_Number{
+                font-size: 20px;
+            }
+            .logoBox{
+                padding: 10px 10px;
+                clear: both;
+            }
+            .logoBox img{
+                display: block;
+                width: 100%;
+                margin: 0 auto;
+                max-width: 551px;
+            }
+            .month_year{
+                text-align: center;
+                background-color: #0089DC;
+                width: 75%;  
+                margin: 15px auto;
+                padding: 5px;    
+                color: #fff;
+            }
+            .contact_header{
+               display: none;
+            }
+            
+    /*        End header        */
+
+    /*        selection content         */
+            .bigBoat img{
+                margin: 0 auto;
+                display: block;
+                width: 100%;
+                max-width: 768px;
+            }
+            .about_boat{
+                margin: 20px auto;
+                text-align: center;
+            }
+            .aboutBigImg{
+/*                margin: 20px 0;*/
+                display: none;
+            }
+            .Name_boat{
+                font-weight: bolder;
+                margin-bottom: 5px;
+            }
+            .boat_disctiption{
+                margin: 2px 0;
+            }
+            .price{
+                margin-top: 10px;
+                font-weight: bolder;
+            }
+            .divider{
+                width: 100%;
+            }
+            .clearfix{
+                clear: both;
+            }
+            .mini_boat{
+                margin: 0 auto;
+                width: 98%;
+            }
+            .mini_img{
+                width: 100%;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .mini_discrip{
+               text-align: center; 
+
+            }
+    /*        end selection content     */
+
+    /*  start FOOTER          */
+            footer{
+                margin-top: 30px;
+                padding-bottom: 30px;
+                font-size: 15px;
+            }
+            .footer_logo{
+                margin-left: 20px;
+                width: 100%;
+            }
+            .office_Kyiv{
+                margin: 10px 20px;
+            }
+            .contact_kyiv{
+                margin: 0 20px;
+            }
+            h3{
+                margin-bottom:10px;
+            }
+    /*      END footer           */
+    
         }
-        .mini_discrip{
-            float: right;
+        @media screen and (min-width: 480px) and (max-width: 767px) {
+            .wrapper{
+                padding: 20px 5px;
+                width: 90%;
+                background: #fff;
+                margin: 20px auto;
+            }   
+    /*        header         */
+            .dateSend{
+                width: 30%;
+                background: #0089DC;
+                margin: -20px 0 0 10px;
+                font-weight: 500;
+                color: #fff;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                float: left;
+            }
+            .dS_Number{
+                font-size: 35px;
+            }
+            .logoBox{
+                padding: 15px 10px 0 10px;
+                clear: both;
+            }
+            .logoBox img{
+                display: block;
+                width: 100%;
+                margin: 0 auto;
+                max-width: 551px;
+            }
+            .month_year{
+                text-align: center;
+                background-color: #0089DC;
+                width: 45%;  
+                margin: 30px auto;
+                padding: 5px;    
+                color: #fff;
+            }
+            .contact_header{
+                width: 50%;
+                float: right;
+            }
+            .headerContText{
+                float: right;
+                font-size: 15px;
+            }
+    /*        End header        */
+
+    /*        selection content         */
+            .bigBoat img{
+                margin: 0 auto;
+                display: block;
+                width: 100%;
+                max-width: 768px;
+            }
+            .about_boat{
+                float: left;
+                margin: 20px 1px 0 0;
+                width: 34%;
+            }
+            .discript_big_boat{
+                width: 100%;
+                margin: 0 auto;
+                font-size: 15px;
+            }
+            .aboutBigImg{
+                margin: 20px 0;
+                float: right;
+                width: 65%;
+            }
+            .Name_boat{
+                font-weight: bolder;
+                margin-bottom: 5px;
+            }
+            .boat_disctiption{
+                margin: 2px 0;
+            }
+            .price{
+                margin-top: 10px;
+                font-weight: bolder;
+            }
+            .divider{
+                width: 100%;
+            }
+            .clearfix{
+                clear: both;
+                position: relative;
+                overflow: hidden;
+            }
+            .mini_boat{
+                margin: 0 auto;
+/*                width: 95%;*/
+            }
+            .mini_img{
+                max-width: 330px;
+                width: 100%;
+                float: left;
+                width: 55%;
+
+                margin-left: 10px;
+            }
+            .mini_discrip{
+                width: 40%;
+                float: right;
+                font-size: 14px;
+            }
+    /*        end selection content     */
+
+    /*  start FOOTER          */
+            footer{
+                margin-top: 10px;
+                padding-bottom: 30px;
+                font-size: 14px;
+            }
+            .footer_logo{
+                display: block;
+                margin: 15px auto;
+                max-width: 480px;
+                width: 100%;
+            }
+            .office_Kyiv{
+                float: left;
+                margin: 0 10px;
+            }
+            .contact_kyiv{
+                float: right;
+                margin: 0 10px;
+            }
+            h3{
+                margin-bottom:10px;
+            }
+     
+    /*      END footer           */
+    
         }
-/*        end selection content     */
+        @media screen and (min-width: 768px) and (max-width: 959px){
+            .wrapper{
+                padding: 20px 10px;
+                width: 65%;
+                background: #fff;
+                margin: 20px auto;
+            }   
+            a{
+                text-decoration: none;
+                color: black;
+            }
+
+    /*        header         */
+            .dateSend{
+                width: 20%;
+                background: #0089DC;
+                margin: -20px 0 0 10px;
+                font-weight: 500;
+                color: #fff;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                float: left;
+            }
+            .dS_Number{
+                font-size: 35px;
+            }
+            .logoBox{
+                padding: 0 10px;
+                clear: both;
+            }
+            .logoBox img{
+                display: block;
+                width: 100%;
+                margin: 0 auto;
+                max-width: 551px;
+            }
+            .month_year{
+                text-align: center;
+                background-color: #0089DC;
+                width: 45%;  
+                margin: 30px auto;
+                padding: 5px;    
+                color: #fff;
+            }
+            .contact_header{
+               width: 50%;
+                float: right;
+            }
+            .headerContText{
+                float: right;
+            }
+    /*        End header        */
+
+    /*        selection content         */
+            .bigBoat img{
+                margin: 0 auto;
+                display: block;
+                width: 100%;
+                max-width: 768px;
+            }
+            .about_boat{
+                float: left;
+                margin: 20px 0;
+                width: 35%;
+            }
+            .discript_big_boat{
+                width: 96%;
+                margin: 0 auto;
+                font-size: 16px;
+            }
+            .aboutBigImg{
+                margin: 20px 0;
+                float: right;
+                width: 65%;
+            }
+            .Name_boat{
+                font-weight: bolder;
+                margin-bottom: 5px;
+            }
+            .boat_disctiption{
+                margin: 2px 0;
+            }
+            .price{
+                margin-top: 10px;
+                font-weight: bolder;
+            }
+            .divider{
+                width: 100%;
+            }
+            .clearfix{
+                clear: both;
+                position: relative;
+                overflow: hidden;
+            }
+            .mini_boat{
+                margin: 0 auto;
+            }
+            .mini_img{
+                max-width: 300px;
+                width: 100%;
+                float: left;
+                width: 55%;
+                margin-left: 10px;
+            }
+            .mini_discrip{
+                width: 40%;
+                float: right;
+                font-size: 16px;
+            }
+    /*        end selection content     */
+
+    /*  start FOOTER          */
+            footer{
+                margin-top: 15px;
+                padding-bottom: 30px;
+            }
+            .footer_logo{
+                display: block;
+                margin: 0 auto;
+                max-width: 550px;
+                width: 100%;
+                margin-bottom: 15px;
+            }
+            .office_Kyiv{
+                float: left;
+                margin: 0 10px;
+            }
+            .contact_kyiv{
+                float: right;
+                margin: 0 10px;
+            }
+            h3{
+                margin-bottom:10px;
+            }
+    /*      END footer           */
+
+        }
+        @media screen and (min-width: 960px){
+            .wrapper{
+                padding: 20px 10px;
+                width: 65%;
+                background: #fff;
+                margin: 20px auto;
+            }   
+
+    /*        header         */
+            .dateSend{
+                width: 20%;
+                background: #0089DC;
+                margin: -20px 0 0 10px;
+                font-weight: 500;
+                color: #fff;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                float: left;
+            }
+            .dS_Number{
+                font-size: 35px;
+            }
+            .logoBox{
+                padding: 0 10px;
+                clear: both;
+            }
+            .logoBox img{
+                display: block;
+                width: 100%;
+                margin: 0 auto;
+                max-width: 551px;
+            }
+            .month_year{
+                text-align: center;
+                background-color: #0089DC;
+                width: 45%;  
+                margin: 30px auto;
+                padding: 5px;    
+                color: #fff;
+            }
+            .contact_header{
+               width: 30%;
+                float: right;
+            }
+            .headerContText{
+                float: right;
+            }
+    /*        End header        */
+
+    /*        selection content         */
+            .bigBoat img{
+                margin: 0 auto;
+                display: block;
+                width: 100%;
+                max-width: 768px;
+            }
+            .about_boat{
+                float: left;
+                margin: 20px 0;
+                width: 35%;
+            }
+            .discript_big_boat{
+                width: 96%;
+                margin: 0 auto;
+                font-size: 16px;
+            }
+            .aboutBigImg{
+                margin: 20px 0;
+                float: right;
+                width: 65%;
+            }
+            .Name_boat{
+                font-weight: bolder;
+                margin-bottom: 5px;
+            }
+            .boat_disctiption{
+                margin: 2px 0;
+            }
+            .price{
+                margin-top: 10px;
+                font-weight: bolder;
+            }
+            .divider{
+                width: 100%;
+            }
+            .clearfix{
+                clear: both;
+                position: relative;
+                overflow: hidden;
+            }
+            .mini_boat{
+                margin: 0 auto;
+            }
+            .mini_img{
+                max-width: 300px;
+                width: 100%;
+                float: left;
+                width: 55%;
+                margin-left: 10px;
+            }
+            .mini_discrip{
+                width: 40%;
+                float: right;
+                font-size: 16px;
+            }
+    /*        end selection content     */
+
+    /*  start FOOTER          */
+            footer{
+                margin-top: 15px;
+                padding-bottom: 30px;
+                
+            }
+            .footer_logo{
+                max-width: 480px;
+                display: block;
+                margin: 0 auto;
+                width: 100%;
+                margin-bottom: 15px;
+            }
+            .office_Kyiv{
+                float: left;
+                margin: 0 10px;
+                text-align: center;
+                width: 40%;
+            }
+            .contact_kyiv{
+                text-align: center;
+                float: right;
+                margin: 0 10px;
+                width: 40%;
+            }
+            h3{
+                margin-bottom:10px;
+            }
+    /*      END footer           */
+
+        }
     </style>
 </head>
 <body>
@@ -111,37 +557,46 @@
                     <p>Рассылка</p>
                     <p class="dS_Number">#17</p>
                 </div>
+                
+                <div class="contact_header">
+                    <div class="headerContText"><p><a href="mailto:sales@marinevoyage.com">sales@marinevoyage.com</a></p></div> 
+                    <div class="headerContText"><p>Office: +38(044)247-96-69</p> </div>
+                    <div class="headerContText"><p>Mobile: +38(63)247-96-69</p> </div>
+                </div>
 <!--                Конец даты рассылки        -->
                 <div class="logoBox">
-                       
-                        <a href=""><img src="images/logo.png" alt=""></a>
-                    
+                        <a href="http://marinevoyage.com/" target="_blank"><img src="images/logo.png" alt=""></a>
 <!--                    Месяц отправки письма         -->
                     <div class="month_year"> Сентябрь / 2016 </div>
                 </div>
         </header>
         <selection class="content">
 <!--           Блок с большой картинкой            -->
-            <div class="bigImgBoat">
-                <a href=""> <!--     Ссылка лодки на вашем сайте     -->
-                    <img src="images/lodka_31.png" alt=""><!-- src="ХХХХ" вместо ХХХ адрес на картинку -->
+            <div class="bigBoat">
+                <a href=""> <!--     Ссылка лодкy на вашем сайте     -->
+                    <img src="images/lodka_31.png" alt="" target="_blank"><!-- src="ХХХХ" вместо ХХХ адрес на картинку -->
                 </a> 
             </div> 
-            <div class="about_boat">
-                <p class="Name_boat">M/Y VICTORIA V</p> <!--Здесь можно изменить имя основной лодки (большая картинка)-->
-                <p class="boat_disctiption">Aimut 75 | 2009 | 22.9m</p> <!--О чем строка не знаю, скорее выпуск -->
-                <p class="boat_disctiption">HP/RPM: 609 / 1800</p><!--Здесь можно изменить количество конских сил-->
-                <p class="boat_disctiption">Location: Ukraine, Odessa</p><!--Здесь можно изменить где находится-->
-                <p class="boat_disctiption">Other: 6 guests in 3 staterooms</p> <!--Другая инфа о лодке, если не нужно удаляй строку-->
-                <p class="price">Price: EUR 1.000.000</p>
-            </div>
+            <div class="discript_big_boat">
+                <div class="about_boat">
+                    <p class="Name_boat">M/Y VICTORIA V</p> <!--Здесь можно изменить имя основной лодки (большая картинка)-->
+                    <p class="boat_disctiption">Aimut 75 | 2009 | 22.9m</p> <!--О чем строка не знаю, скорее выпуск -->
+                    <p class="boat_disctiption">HP/RPM: 609 / 1800</p><!--Здесь можно изменить количество конских сил-->
+                    <p class="boat_disctiption">Location: Ukraine, Odessa</p><!--Здесь можно изменить где находится-->
+                    <p class="boat_disctiption">Other: 6 guests in 3 staterooms</p> <!--Другая инфа о лодке, если не нужно удаляй строку-->
+                    <p class="price">Price: EUR 1.000.000</p>
+                </div>
+            
             <p class="aboutBigImg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quam, sunt iste voluptatum veritatis impedit minima ad asperiores dolore dolor consequatur? Repudiandae, aut quae necessitatibus nam nobis eum sed accusamus?</p>
+            </div>
             <img class="divider" src="images/divider.gif" alt=""> 
 <!--            Конец блока с большой картинкой         -->
        
 <!--            Блок "Лодка № 1"         -->
         <div class="mini_boat">
-           <a href=""><img class="mini_img" src="images/lodka_1.jpg" alt=""></a>
+           <a href="">
+               <img class="mini_img" src="images/lodka_1.jpg" alt="" target="_blank">
+            </a>
            <div class="mini_discrip">
                <p class="Name_boat">M/Y VICTORIA V</p> <!--Здесь можно изменить имя основной лодки (большая картинка)-->
                 <p class="boat_disctiption">Aimut 75 | 2009 | 22.9m</p> <!--О чем строка не знаю, скорее выпуск -->
@@ -156,7 +611,9 @@
 
  <!--            Блок "Лодка № 2"         -->
         <div class="mini_boat">
-           <a href=""><img class="mini_img" src="images/lodka_2.jpg" alt=""></a>
+           <a href="">
+               <img class="mini_img" src="images/lodka_2.jpg" alt="" target="_blank">
+            </a>
            <div class="mini_discrip">
                <p class="Name_boat">M/Y VICTORIA V</p> <!--Здесь можно изменить имя основной лодки (большая картинка)-->
                 <p class="boat_disctiption">Aimut 75 | 2009 | 22.9m</p> <!--О чем строка не знаю, скорее выпуск -->
@@ -171,8 +628,10 @@
 
             
 <!--            Блок "Лодка № 3"         -->
-        <div class="mini_boat">
-           <a href=""><img class="mini_img" src="images/lodka_3.png" alt=""></a>
+           <div class="mini_boat">
+           <a href="">
+               <img class="mini_img" src="images/lodka_3.png" alt="" target="_blank">
+            </a>
            <div class="mini_discrip">
                <p class="Name_boat">M/Y VICTORIA V</p> <!--Здесь можно изменить имя основной лодки (большая картинка)-->
                 <p class="boat_disctiption">Aimut 75 | 2009 | 22.9m</p> <!--О чем строка не знаю, скорее выпуск -->
@@ -185,10 +644,26 @@
         <img class="divider clearfix" src="images/divider.gif" alt=""> 
 <!--         Конец блока "Лодка 3"         -->
             
-    
-      
         </selection>   
-           
-    
+        <footer class="clearfix">
+                <a href="http://marinevoyage.com/" target="_blank">
+                    <img class="footer_logo" src="images/logo.png" alt="">
+                </a>
+            <div class="office_Kyiv">
+               <h3>Office Kyiv</h3>
+                <p>Marine Voyage</p>
+                <p>1317 off., 4 entrance </p>
+                <p>21 V. Khvoiki Str. </p>
+                <p>Kiev, 04080, Ukraine</p>
+            </div>
+            <div class="contact_kyiv">
+               <h3>Contact US</h3>
+                <p>phone: +38(044)247-96-69</p>
+                <p>mob: +38(63)247-96-69 </p>
+                <p>Email: <a href="mailto:sales@marinevoyage.com">sales@marinevoyage.com</a></p>
+            </div>
+             
+        </footer>   
+    </div>
 </body>
 </html>
