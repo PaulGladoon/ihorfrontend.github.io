@@ -19,27 +19,26 @@ $(function(){
         
        
     });
-});
+});//END FUNCTION 
 
 $(function(){
-    var $inlineBlock = $('[title]');
     var $helpText = $('.helpText');
     var $btn = $('#btn');
-    var i = 0
     
     $btn.on('click', function(){
-        $helpText.fadeIn(1500);   
+        $helpText.fadeIn(500);   
     });
+        $('.inlineBlock').hover(function(e){
+            var $input = $(e.target);
+            $input.siblings($helpText).fadeIn(500);
+        },function(e){
+            var $input = $(e.target);
+            $input.siblings($helpText).fadeOut(500);
         
-    function stringToNumb(myArray){
-        for( i = 0; i < myArray.length; i++){
-                console.log(i);
-        }
-        
-    }
-
+        });
     
-    stringToNumb($inlineBlock);
-                 
+    
+    
+  
                  
     });//END FUNCTION 
