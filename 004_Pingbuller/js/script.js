@@ -1,7 +1,13 @@
 $(function() {
   var slider = $('.slider__container').jcarousel({
       // Базовые настройки скрипта пишутся здесь
-      wrap: 'circular'
+      wrap: 'circular',
+      animation: {
+        duration: 800,
+        easing:   'linear',
+        complete: function() {
+        }
+      }
   });
     
     
