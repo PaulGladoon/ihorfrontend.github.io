@@ -1,4 +1,4 @@
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 960px) {
 	body {
 		font-family: "League Gothic", Arial, sans-serif;
 	}
@@ -104,21 +104,42 @@
 	.slider {
 		height: 731px;
 		position: relative;
+        overflow: hidden;
 	}
 	.slider__wrapper {
 		height: 400px;
-		width: 100%;
-		position: absolute;
-		top: 163px;
-		left: 0px;
-		background-color: rgba(0, 0, 0, 0.2);
+        width: 100%;
+        position: absolute;
+        top: 163px;
+        left: 0px;
+        background-color: rgba(0, 0, 0, 0.2);
 	}
-	.slider__container {
-		width: 960px;
-		height: 100%;
+    .slider__container {
 		margin: 0px auto;
-		position: relative;
+        width: 960px;
+        height: 100%;
+        position: relative; 
+        overflow: hidden;
+        
 	}
+    .slider__container ul{
+        width: 20000em;
+        position: relative;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .slider__container li{
+        float: left;
+    }
+    .contSlide{
+        width: 960px;
+		height: 100%;
+        margin-top: 25px;
+        position: relative;
+        float: none;
+    }
+
 	.slider__info {
 		width: 53%;
 		height: 311px;
@@ -164,6 +185,7 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+    
 	.slider__play-button {
 		position: absolute;
 		top: 148px;
@@ -181,17 +203,13 @@
 	.slider__play-button:hover {
 		opacity: 1;
 	}
-	.nav-icons {
-		float: right;
+	.nav_icons {
 		width: 87px;
 		height: 18px;
-		margin: 492px 160px 0px auto;
-		font-size: 0px;
+		margin: 50px auto;
 	}
 	.nav-icons__first,
-	.nav-icons__second,
-	.nav-icons__third,
-	.nav-icons__fourth {
+	.nav-icons__second {
 		display: inline-block;
 		height: 18px;
 		width: 17px;
@@ -211,17 +229,8 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-	.nav-icons__third {
-		margin-right: 5px;
-		background-position: 0px 0px;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-	.nav-icons__fourth {
-		background-position: 0px 0px;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
+	
+
 	/* ****************** ABOUT ****************** */
 	.about {
 		background: #322539;
