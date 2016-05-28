@@ -10,9 +10,8 @@ $(function() {
       }
   });
     
+   
     
-    
-
 // Пагинация слайдера
     $('.nav_icons')
         .jcarouselPagination({
@@ -28,6 +27,11 @@ $(function() {
         $(this).removeClass('nav-icons__second').addClass('nav-icons__first');
     });
 
+    
+    var classSlide = $('.nav_icons > a');
+    var firstSlide = classSlide[0];
+    firstSlide.classList.add('nav-icons__second');
+        
     
 // Автопрокрутка слайдера
   $('.contSlide').jcarouselAutoscroll({
