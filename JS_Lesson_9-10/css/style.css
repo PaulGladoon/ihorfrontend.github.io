@@ -107,10 +107,40 @@
 .drop_and_checkbox{
     width: 100%;
 }
-.dropbox{
+.dropbox,
+.check_box{
     width: 50%;
     margin: 0 auto;
 }
+.check_inside{
+    float: left;
+    margin: 0 50px; 
+}
 .dropbox_bar{
     width: 150px;
+}
+
+.niceCheck {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    background: url(../img/checkbox-sprite.png);
+    }
+.niceCheck input {
+    display: none;
+}
+.niceChecked {
+	background-position: 0 -17px;
+}
+.niceCheck input {
+	margin-left: -100px;
+}\
+.niceCheckDisabled {
+	background-image: url(../img/checkbox-disabled.png);
+}
+
+.text_check_jQ{
+    margin: 0 0 0 40px;  
+    width: 150px;
+    display: inline-block;
 }
